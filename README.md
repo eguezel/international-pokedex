@@ -5,7 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Pokédex](https://zupimages.net/up/19/46/79ws.png)
 
-## How use it
+## Where
+
+You can acces at this link : https://international-pokedex.netlify.com/
+
+## Other way
 
 ### `npm install`
 
