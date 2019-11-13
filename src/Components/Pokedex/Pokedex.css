@@ -1,0 +1,87 @@
+.pokedex {
+  grid-area: pokedex;
+  display: grid;
+  grid-template-columns: 48% 4% 48%;
+  grid-template-rows: 75% 25%;
+  grid-template-areas:
+      "sprite border infos"
+      "index border infos"
+  ;
+  background-color: #DC0A2D;
+}
+
+#firstCircle {
+  width: 100px;
+  height: 100px;
+  background: #555;
+  border-radius: 50%;
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+#secondCircle {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(0.55turn, #4FC1FF, #425AFF);
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+#thirdCircle {
+  width: 20px;
+  height: 20px;
+  background: #eee;
+  border-radius: 50%;
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+.idContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: index;
+}
+
+.idContainer img {
+  width: 15%;
+}
+
+.idContainer p {
+  padding: 0 15%;
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 5%;
+  font-size: 40px;
+}
+
+.allInfos {
+  grid-area: infos;
+}
+
+.separation {
+  grid-area: border;
+  background-color: maroon;
+  border-width: 6px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to right, 
+      #ccc, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+.spritePart {
+}
+
+input {
+  margin: 5%;
+}

@@ -1,0 +1,13 @@
+.infosContainer {
+  display: flex;
+  justify-content: center;
+  background: #ddd;
+  width: 50%;
+  margin: 0 auto;
+  border: double grey 5px;
+}
+
+.infosContainer div {
+  text-align: left;
+  margin: 20px;
+}

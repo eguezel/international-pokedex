@@ -1,0 +1,10 @@
+.screen {
+  background-color: #eee;
+  border: solid #444 4px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.screen img {
+  width: inherit;
+}
